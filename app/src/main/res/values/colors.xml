@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#07689f</color>
-    <color name="colorPrimaryDark">#005E93</color>
-    <color name="colorAccent">#ffc93c</color>
-    <color name="background">#EAEAEA</color>
+    <color name="colorPrimary">#9483ff</color>
+    <color name="colorPrimaryDark">#836FFF</color>
+    <color name="colorAccent">#d283ff</color>
+    <color name="background">#F3F3F3</color>
+
+
+    <color name="colorPrimary_1">#AEA1FF</color>
+    <color name="colorAccent_1">#83deff</color>
+    <color name="colorAccent_2">#AEE9FF</color>
+    <color name="colorAccent_3">#E2B0FF</color>
+    <color name="chart_background">#FAF9FF</color>
 
     <color name="colorAccent1">#40A8C4</color>
     <color name="colorAccent2">#A2D5F2</color>
     <color name="white">#FFFFFF</color>
     <color name="black">#000000</color>
     <color name="black1">#80000000</color>
+
+    <color name="txt_blue">#3cabff</color>
 
 
     <!-- Screens background color-->

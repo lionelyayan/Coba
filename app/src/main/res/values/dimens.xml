@@ -9,4 +9,22 @@
     <dimen name="slide_title">30dp</dimen>
     <dimen name="slide_desc">16dp</dimen>
     <dimen name="desc_padding">40dp</dimen>
+
+
+    <dimen name="margin_15">15dp</dimen>
+    <dimen name="chart_height">270dp</dimen>
+    <dimen name="view_padding">10dp</dimen>
+    <dimen name="view_margin_top">10dp</dimen>
+    <dimen name="view_margin_bottom">10dp</dimen>
+    <dimen name="view_margin_left">10dp</dimen>
+    <dimen name="view_margin_right">10dp</dimen>
+    <dimen name="drawable_padding">7dp</dimen>
+    <dimen name="text_padding_vertical">15dp</dimen>
+    <dimen name="text_paddint_horizontal">2dp</dimen>
+    <dimen name="text_xlarge">20sp</dimen>
+    <dimen name="text_large">16sp</dimen>
+    <dimen name="text_normal">14sp</dimen>
+    <dimen name="text_small">12sp</dimen>
+    <dimen name="corner_radius">7dp</dimen>
+    <dimen name="elevation">2dp</dimen>
 </resources>
