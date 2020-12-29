@@ -12,8 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
         android:paddingStart="15dp"
-        android:paddingEnd="15dp"
-        android:background="#F24268FF">
+        android:paddingEnd="15dp">
         <include layout="@layout/toolbar_1"/>
     </RelativeLayout>
 
@@ -25,17 +24,20 @@
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
         app:cardBackgroundColor="#ffffff"
-        app:cardCornerRadius="5dp"
-        app:cardElevation="1dp">
+        app:cardCornerRadius="20dp"
+        app:cardElevation="0dp">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="15dp"
             android:orientation="horizontal">
-            <ImageView
+            <de.hdodenhof.circleimageview.CircleImageView
                 android:layout_width="90dp"
                 android:layout_height="wrap_content"
-                android:src="@mipmap/ic_launcher"/>
+                android:src="@mipmap/ic_launcher"
+                app:civ_border_color="#4268FF"
+                app:civ_border_width="2dp"
+                app:civ_circle_background_color="#CB4268FF"/>
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -88,8 +90,8 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         app:cardBackgroundColor="@color/background"
-                        app:cardCornerRadius="2dp"
-                        app:cardElevation="2dp">
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="0dp">
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -97,8 +99,7 @@
                             android:paddingEnd="10dp"
                             android:paddingTop="5dp"
                             android:paddingBottom="5dp"
-                            android:orientation="vertical"
-                            android:background="@color/background">
+                            android:orientation="vertical">
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -131,17 +132,20 @@
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
         app:cardBackgroundColor="#ffffff"
-        app:cardCornerRadius="5dp"
-        app:cardElevation="1dp">
+        app:cardCornerRadius="20dp"
+        app:cardElevation="0dp">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="15dp"
             android:orientation="horizontal">
-            <ImageView
+            <de.hdodenhof.circleimageview.CircleImageView
                 android:layout_width="90dp"
                 android:layout_height="wrap_content"
-                android:src="@mipmap/ic_launcher"/>
+                android:src="@mipmap/ic_launcher"
+                app:civ_border_color="#4268FF"
+                app:civ_border_width="2dp"
+                app:civ_circle_background_color="#CB4268FF"/>
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -194,8 +198,8 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         app:cardBackgroundColor="@color/background"
-                        app:cardCornerRadius="2dp"
-                        app:cardElevation="2dp">
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="0dp">
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -203,8 +207,7 @@
                             android:paddingEnd="10dp"
                             android:paddingTop="5dp"
                             android:paddingBottom="5dp"
-                            android:orientation="vertical"
-                            android:background="@color/background">
+                            android:orientation="vertical">
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
@@ -237,17 +240,20 @@
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
         app:cardBackgroundColor="#ffffff"
-        app:cardCornerRadius="5dp"
-        app:cardElevation="1dp">
+        app:cardCornerRadius="20dp"
+        app:cardElevation="0dp">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="15dp"
             android:orientation="horizontal">
-            <ImageView
+            <de.hdodenhof.circleimageview.CircleImageView
                 android:layout_width="90dp"
                 android:layout_height="wrap_content"
-                android:src="@mipmap/ic_launcher"/>
+                android:src="@mipmap/ic_launcher"
+                app:civ_border_color="#4268FF"
+                app:civ_border_width="2dp"
+                app:civ_circle_background_color="#CB4268FF"/>
 
             <RelativeLayout
                 android:layout_width="match_parent"
@@ -300,8 +306,8 @@
                         android:layout_height="wrap_content"
                         android:layout_margin="5dp"
                         app:cardBackgroundColor="@color/background"
-                        app:cardCornerRadius="2dp"
-                        app:cardElevation="2dp">
+                        app:cardCornerRadius="15dp"
+                        app:cardElevation="0dp">
                         <LinearLayout
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
@@ -309,8 +315,7 @@
                             android:paddingEnd="10dp"
                             android:paddingTop="5dp"
                             android:paddingBottom="5dp"
-                            android:orientation="vertical"
-                            android:background="@color/background">
+                            android:orientation="vertical">
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
