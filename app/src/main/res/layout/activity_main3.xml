@@ -6,7 +6,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <LinearLayout
+        android:id="@+id/bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <include layout="@layout/toolbar_1"/>
+    </LinearLayout>
+
     <ScrollView
+        android:layout_below="@+id/bar"
         android:layout_above="@+id/bottom"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -14,15 +23,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingTop="8dp"
             android:orientation="vertical">
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginBottom="10dp"
-                android:paddingStart="15dp"
-                android:paddingEnd="15dp">
-                <include layout="@layout/toolbar_1"/>
-            </RelativeLayout>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
